@@ -1,12 +1,12 @@
 package main
 
-import (
-	"./cost"
-	"./triangle"
-)
+import "./primeNumbers"
+import "./evenNumber"
+import "./fibonacci"
 
 func main() {
-	cost.ConvertСurrency()
-	triangle.Triangle()
-
+	evenNumber.EvenNumber()
+	evenNumber.EvenNumber3()
+	fibonacci.Fibonacci()
+	primeNumbers.PrimeNumbers()
 }
