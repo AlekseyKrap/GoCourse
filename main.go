@@ -1,12 +1,13 @@
 package main
 
 import (
-	"./cost"
-	"./triangle"
+	"./addressBook"
+	"./cars"
+	"./fifo"
 )
 
 func main() {
-	cost.ConvertСurrency()
-	triangle.Triangle()
-
+	cars.InitCars()
+	fifo.ExecFifo()
+	addressBook.ExecAddressBook()
 }
