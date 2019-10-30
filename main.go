@@ -1,11 +1,13 @@
 package main
 
-import "./fibonacci"
+import (
+	"./addressBook"
+	"./cars"
+	"./fifo"
+)
 
 func main() {
-	//	evenNumber.EvenNumber()
-	//	evenNumber.EvenNumber3()
-	fibonacci.Fibonacci()
-	//	primeNumbers.PrimeNumbers()
-
+	cars.InitCars()
+	fifo.ExecFifo()
+	addressBook.ExecAddressBook()
 }
