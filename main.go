@@ -1,13 +1,8 @@
 package main
 
-import (
-	"./addressBook"
-	"./cars"
-	"./fifo"
-)
+import "./anyInterface"
 
 func main() {
-	cars.InitCars()
-	fifo.ExecFifo()
-	addressBook.ExecAddressBook()
+	anyInterface.Init()
+
 }
