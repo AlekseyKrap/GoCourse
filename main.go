@@ -1,8 +1,9 @@
 package main
 
-import "./anyInterface"
+import "./homework5/csv"
 
 func main() {
-	anyInterface.Init()
+
+	csv.Init()
 
 }
