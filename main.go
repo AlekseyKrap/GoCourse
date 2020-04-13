@@ -1,9 +1,9 @@
 package main
 
-import "./homework5/csv"
+import "./homeworck7/spiner"
 
 func main() {
 
-	csv.Init()
+	spiner.RunSpiner()
 
 }
